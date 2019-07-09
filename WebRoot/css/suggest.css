@@ -1,0 +1,155 @@
+.suggest-title {
+    width: 50%;
+    font-size: 12px;
+    overflow: hidden; /*超出部分隐藏*/
+    white-space: nowrap; /*不换行*/
+    text-overflow: ellipsis; /*超出部分文字以...显示*/
+}
+
+.suggest-time {
+    width: 50%;
+    font-size: 12px;
+    overflow: hidden; /*超出部分隐藏*/
+    white-space: nowrap; /*不换行*/
+    text-overflow: ellipsis; /*超出部分文字以...显示*/
+}
+
+.suggest-info {
+    margin: 0px 5px;
+    padding: 15px 1px;
+}
+
+.suggest-info-title {
+    font-size: 16px;
+    overflow: hidden; /*超出部分隐藏*/
+    white-space: nowrap; /*不换行*/
+    text-overflow: ellipsis; /*超出部分文字以...显示*/
+    text-align: center;
+    color: #999;
+    margin: 5px 0;
+}
+
+.suggest-info-time {
+    font-size: 10px;
+    overflow: hidden; /*超出部分隐藏*/
+    white-space: nowrap; /*不换行*/
+    text-overflow: ellipsis; /*超出部分文字以...显示*/
+    text-align: center;
+    color: #999;
+    text-align: right;
+    margin: 5px 0;
+}
+
+.box-s-suggest {
+    padding: 0;
+    margin: 0;
+}
+
+.contents {
+    color: #999;
+    font-size: 14px;
+    line-height: 20px;
+    text-indent: 25px;
+    padding: 0 5px;
+    margin: 0 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+.suggest-info-btn {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    display: block;
+    border-radius: 2%;
+    background-color: #06c1ae;
+    padding: 8px 0;
+    margin: 5px 15px;
+}
+
+.contents-textarea {
+    text-align: left;
+    margin: 0px 5px;
+}
+
+.contents-textarea > textarea {
+    border: none;
+    width: 100%;
+    height: 80%;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    padding: 2px;
+    line-height: 20px;
+    padding: 2px;
+    color: #999;
+    text-indent: 25px;
+    border: 1px solid;
+}
+
+.suggest-info-title-add {
+    font-size: 16px;
+    overflow: hidden; /*超出部分隐藏*/
+    white-space: nowrap; /*不换行*/
+    text-overflow: ellipsis; /*超出部分文字以...显示*/
+    color: #999;
+    margin: 5px 0;
+}
+
+.suggest-info-title-add > input {
+    width: 60%;
+}
+
+.suggest-bottom {
+    position: fixed;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+.suggest-bottom > a {
+    width: 94%;
+    display: block;
+    margin: 2% auto;
+    text-align: center;
+    height: .5rem;
+    line-height: .5rem;
+    background-color: #06c1ae;
+    color: #fff;
+    font-size: .15rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.submit-add {
+    width: 94%;
+    display: block;
+    margin: 2% auto;
+    text-align: center;
+    height: .5rem;
+    line-height: .5rem;
+    background-color: #06c1ae;
+    color: #fff;
+    font-size: .15rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.box-s > a:hover {
+    color: grey;
+}
+
+.box-s > a:link {
+    color: grey;
+}
+
+.box-s > a:visited {
+    color: grey;
+}
+
+.box-s > a:active {
+    color: grey;
+}

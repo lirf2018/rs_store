@@ -1,0 +1,41 @@
+.box-s {
+    text-align: center;
+    color: gray;
+    font-size: .15rem;
+}
+
+.box-s > div > input {
+    border-radius: 5%;
+    border: none;
+    border-bottom: 1px solid gray;
+    height: 15px;
+    padding-left: 5px;
+}
+
+.box-s-sure-btn {
+    padding: 5px 0;
+}
+
+.sure-btn {
+    width: 94%;
+    display: block;
+    margin: 5% auto;
+    text-align: center;
+    height: .5rem;
+    line-height: .5rem;
+    background-color: #06c1ae;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.sure-btn > span {
+    color: white;
+    font-size: .15rem;
+}
+
+.pla-remind {
+    padding: 5px 10px;
+    color: red;
+    text-align: center;
+}

@@ -1,0 +1,163 @@
+.order-num {
+    padding: 10px 15px;
+    margin: 5px 0px 10px 0px;
+    border-bottom: 1px solid #D1D1D1;
+    font-size: 15px;
+    text-align: center;
+}
+
+.order-fail {
+    padding: 3px 15px;
+    margin: 0px 0px 10px 0px;
+    border-bottom: 1px solid #D1D1D1;
+    font-size: 14px;
+    text-align: left;
+    color: red;
+}
+
+.order-fail > p {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.shouh dd {
+    float: none;
+}
+
+.shouh p:after {
+    background: white;
+}
+
+.shouh > dl > dd:first-child {
+    margin-bottom: 10px;
+}
+
+.pay-detail {
+    line-height: .2rem;
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.shouh > dl > dd > span {
+    color: grey;
+}
+
+.shouh > p > span {
+    color: grey;
+}
+
+.orderlist article dl dt {
+    width: 50%;
+    float: left
+}
+
+.orderlist article dl dd {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.orderlist article dl dd p, .orderlist article dl dt p {
+    color: #000;
+}
+
+.orderlist article dl dd p a {
+}
+
+.orderlist article dl dt p {
+    text-align: left;
+    color: #6d6d6d;
+}
+
+.orderlist article dl dd p.red {
+    color: #fa1d4a;
+}
+
+.orderlist article dl > p {
+    text-align: right;
+    color: #000;
+    line-height: 30px
+}
+
+.order-detail-coler > {
+    color: #6d6d6d;
+}
+
+.pay-detail {
+    margin-bottom: 15px;
+    margin: 0 10px;
+}
+
+.order-detail-user-msg {
+    margin: 0 10px;
+    line-height: 16px;
+    color: #6d6d6d;
+    padding: 10px 1px 10px 10px;
+
+}
+
+.order-detail-user-msg > em {
+    color: #000;
+}
+
+.order-detail-user-msg > div {
+    padding: 0 5px;
+    margin: 0 3px;
+}
+
+.orer-detail-btn {
+    padding-top: 5px;
+    margin: 0 0;
+    padding-bottom: 15px;
+    border-top: 1px solid #D1D1D1;
+    height: 35px;
+}
+
+.orer-detail-btn > p {
+    float: right;
+    border: 1px solid #fa1d4a;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 10px 5px;
+    border-color: #666;
+    color: #666;
+    text-align: center;
+    margin: 0px 3px;
+    padding: 5px 15px;
+}
+
+.pay-way-new > div {
+    /*text-align: center;*/
+    font-size: 14px;
+    display: flex;
+    color: grey;
+    padding: 14px;
+}
+
+.pay-way-new > div:not(:last-child) {
+    border-bottom: 1px solid grey;
+}
+
+.pay-way-new > div > span {
+    display: block;
+}
+
+.pay-way-new > div > span > img {
+    width: auto;
+}
+
+.pay-way-new > div > span:nth-child(2) {
+    padding-left: 15px;
+}
+
+.pay-way-new > div > span:last-child {
+    position: absolute;
+    right: 15px;
+    font-size: 18px;
+}
+
+.pay-way-new > div > span:not(:first-child) {
+    line-height: 30px;
+}

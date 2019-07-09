@@ -1,0 +1,14 @@
+.order-div {
+    text-align: center;
+    margin: 8px;
+    padding: 5px;
+    padding-top: 30px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: gray;
+}
+
+.order-num {
+    padding: 15px 0;
+}
+

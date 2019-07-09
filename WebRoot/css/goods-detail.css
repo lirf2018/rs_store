@@ -1,0 +1,278 @@
+/*banner*/
+
+.banner img {
+    display: block;
+    width: 100%;
+}
+
+.banner {
+    height: auto;
+}
+
+#container {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.box-s > .now-price {
+    color: red;
+    font-size: .20rem;
+    margin-right: 10px;
+}
+
+.now-price-fh {
+    color: grey;
+    font-size: .15rem;
+    font-family: "微软雅黑";
+}
+
+.true-price {
+    font-size: .15rem;
+}
+
+/*底部*/
+
+.detail-footer {
+    height: 0.5rem;
+    border-top: 1px #CCC solid;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+    background: #EEE;
+    width: 100%;
+}
+
+.div-1 {
+    width: 15%;
+    height: 100%;
+    border-right: 1px solid gainsboro;
+}
+
+.div-2 {
+    height: 100%;
+    width: 15%;
+    border-right: 1px solid gainsboro;
+}
+
+.div-3 {
+    height: 100%;
+    width: 35%;
+    border-right: 1px solid gainsboro;
+    line-height: 0.5rem;
+    text-align: center;
+    font-size: 1.3em;
+    background-color: #ff9100;
+    color: #fff;
+}
+
+.div-4 {
+    height: 100%;
+    width: 35%;
+    line-height: 0.5rem;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.3em;
+    background-color: #00cc7d;
+    color: #fff;
+}
+
+.div-5 {
+    height: 100%;
+    width: 70%;
+    line-height: 0.5rem;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.3em;
+    background-color: #00cc7d;
+    color: #fff;
+}
+
+/*加入购物车或者购买*/
+.mui-backdrop {
+    display: none;
+}
+
+.g-detail {
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 1000;
+    height: auto;
+    display: none;
+    height: 75%;
+}
+
+.g-detail-top {
+    padding: .1rem .1rem;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+}
+
+.g-detail-close {
+    position: absolute;
+    right: .08rem;
+    top: .1rem;
+}
+
+.g-top-img {
+    border: 1px solid #ddd;
+    padding: .05rem;
+}
+
+.g-top-img img {
+    width: 0.6rem;
+    height: 0.6rem;
+}
+
+.g-top-info {
+    width: 67%;
+    padding-left: .1rem;
+}
+
+.g-top-info h2 {
+    font-size: .15rem;
+    line-height: .2rem;
+    text-overflow: ellipsis;
+    display: box;
+    display: -webkit-box;
+    line-clamp: 1;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.g-top-info .price {
+    color: #ee4040;
+    font-size: .15rem;
+    line-height: .3rem;
+}
+
+.g-detail-size,
+.g-detail-color {
+    padding: 0rem .1rem;
+}
+
+.g-detail-size h2,
+.g-detail-color h2 {
+    font-size: .15rem;
+    line-height: .3rem;
+    color: #666;
+}
+
+.g-detail-size ul,
+.g-detail-color ul {
+    overflow: hidden;
+}
+
+.g-detail-size li,
+.g-detail-color li {
+    float: left;
+    padding: .05rem .2rem;
+    border: 1px solid #ddd;
+    border-radius: .1rem;
+    margin: 0 .1rem .1rem 0;
+    font-size: .1rem;
+}
+
+.g-detail-color .current {
+    border: 1px solid #FF0000;
+}
+
+.g-detail-size .current {
+    border: 1px solid #FF0000;
+}
+
+.g-detail-num {
+    padding: .1rem .2rem;
+    overflow: hidden;
+    padding: 0 .15rem;
+}
+
+.g-detail-num h2 {
+    font-size: .15rem;
+    line-height: .3rem;
+}
+
+.g-detail-num .decrease,
+.g-detail-num .increase {
+    font-size: .15rem;
+    text-align: center;
+    width: .5rem;
+    height: .5rem;
+    line-height: .5rem;
+}
+
+.g-detail-num .text_box {
+    font-size: .15rem;
+    text-align: center;
+    width: 1.5rem;
+    height: .6rem;
+    line-height: .4rem;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    color: #000;
+    -webkit-appearance: none !important;
+}
+
+.g-detail-btn {
+    background: #ddd;
+    width: 100%;
+}
+
+.g-detail-btn button {
+    display: block;
+    border: 0;
+    width: 100%;
+    margin: 0 auto;
+    padding: .1rem .5rem;
+    text-align: center;
+    background: #00cc7d;
+    color: white;
+    font-size: .2rem;
+    height: 48px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.goods-spece {
+    overflow: hidden;
+    overflow-y: auto;
+    position: absolute;
+    bottom: 55px;
+    top: 135px;
+    width: 100%;
+}
+
+.select {
+    margin-bottom: .05rem;
+}
+
+.select-sku {
+    display: block;
+    line-height: 18px
+}
+
+.goods-need-notice {
+    text-align: left;
+    color: gray;
+    width: 100%;
+    margin-right: 5px;
+    padding: 0 5px;
+    display: none;
+}
+
+.goods-need-notice > div {
+    text-align: left;
+    color: gray;
+    width: 100%;
+    margin: 0 5px;
+    padding: 0 5px;
+}
+
+.goods-detail-info {
+    padding: 0px 10px 10px 10px;
+    margin: 0px 5px 5px 5px;
+}

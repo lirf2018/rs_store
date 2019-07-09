@@ -1,0 +1,165 @@
+/*内容*/
+
+/*底部*/
+.shopcard-footer {
+    height: 0.5rem;
+    border-top: 1px #CCC solid;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+    background: #EEE;
+    width: 100%;
+}
+
+.repet {
+    height: 0.5rem;
+    width: 100%;
+}
+
+.div-3 {
+    height: 100%;
+    width: 60%;
+    line-height: 0.5rem;
+    text-align: center;
+    font-size: 1.3em;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.div-4 {
+    height: 100%;
+    width: 40%;
+    line-height: 0.5rem;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.7em;
+    background-color: #00cc7d;
+    color: #fff;
+}
+
+.post-desc {
+    font-size: 11px;
+}
+
+/*店铺商品列表*/
+.all-shop-goods {
+    top: 50px;
+    position: absolute;
+    overflow-x: hidden;
+
+}
+
+.select-all {
+    color: #06c1ae;
+    padding: 5px 0px;
+    font-size: .15rem;
+    margin-right: .18rem;
+    width: 100%;
+}
+
+.select-all > span {
+    color: grey;
+}
+
+.radio-all {
+    padding: .05rem .05rem .05rem .1rem;
+}
+
+.select-all-title-div {
+    padding: .05rem .05rem .05rem .1rem;
+    color: grey;
+    font-size: .10rem;
+}
+
+.select-all-title-div > label {
+    float: left;
+    width: auto;
+}
+
+.select-all-title-div-lable-div {
+    padding-top: 2px;
+    font-size: .14rem;
+    margin-left: 3px;
+}
+
+.shop-goods-list {
+    margin-bottom: 5px;
+}
+
+/*select-all2*/
+.select-all2 {
+    display: flex;
+    color: grey;
+    font-size: 12px;
+}
+
+.select-all2 > div {
+    display: block;
+    padding: 10px 10px;
+    padding-bottom: 5px;
+    float: left;
+}
+
+.select-all2 > div:first-child {
+    width: 25%;
+}
+
+.select-all2 > div:nth-child(2) {
+    width: 70%;
+}
+
+.select-all2 > div:last-child {
+    width: 5%;
+}
+
+.clear-div {
+    width: 100%;
+    clear: left;
+}
+
+.shop-name {
+    color: gray;
+    font-size: 0.15rem;
+    margin: 8px 0px 0px 0px;
+    padding-left: 10px;
+    padding-top: 12px;
+    background-color: #fff;
+    overflow: hidden;
+    -webkit-text-overflow: inherit;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-bottom: 1px solid grey;
+}
+
+/**
+ * 选择支付提示
+*/
+.addr-way-page-addr {
+    color: gray;
+    width: 100%;
+}
+
+.addr-way-page-addr > span {
+    width: 33.3%;
+    padding: 0 15px;
+}
+
+.no-goods {
+    top: 200px;
+    text-align: center;
+}
+
+/**
+选择取货方式
+ */
+.show-chose-addr-btn {
+    color: grey;
+}
+
+.show-chose-addr-btn > span {
+    display: block;
+    padding: 10px 0px;
+    margin: 13px 0px;
+    width: 100%;
+    border: 1px solid grey;
+}

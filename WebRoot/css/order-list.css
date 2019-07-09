@@ -1,0 +1,50 @@
+body {
+    background-color: #EEE;
+}
+
+.orer-detail-btn > div {
+    color: #666;
+    padding: 0 10px;
+    text-align: right;
+    margin-top: 12px;
+
+}
+
+.order-list-do {
+    text-align: right;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.order-list-do > p {
+    color: #666;
+    float: right;
+    border: 1px solid #fa1d4a;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 10px 5px;
+    border-color: #666;
+    color: #666;
+    text-align: center;
+    margin: 0px 3px;
+    padding: 5px 15px;
+}
+
+.orderpage {
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.favor-header-bar {
+    margin-bottom: 10px;
+    z-index: 99;
+    position: relative;
+    margin-top: 0;
+    padding-top: 15px;
+    top: -8px;
+}

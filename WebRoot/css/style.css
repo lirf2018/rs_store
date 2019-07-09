@@ -1,0 +1,62 @@
+﻿/*=======================================
+    GENERAL STYLES
+==================================================*/
+
+body {
+    font-family: 'Nova Flat', cursive;
+    background-color: #06c1ae;
+    color: #fff;
+}
+
+.pad-top {
+    /*padding-top: 20px;*/
+}
+
+.text-center {
+    text-align: center;
+}
+
+#error-link {
+    font-size: 150px;
+    padding: 10px;
+    padding-top: 0;
+}
+
+.mybtn {
+    background-color: white;
+    border: 2px solid grey;
+    font-size: 20px;
+    line-height: 2px;
+    display: inline-block;
+    padding: 18px 22px;
+    border-radius: 4px;
+    white-space: nowrap;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    text-decoration: none
+}
+
+.col-md-8,
+.col-md-offset-2 > a {
+    text-decoration: none
+}
+
+a:link {
+    color: gray
+}
+
+a:visited {
+    color: gray
+}
+
+a:hover {
+    color: gray
+}
+
+a:active {
+    color: gray
+}

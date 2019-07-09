@@ -1,0 +1,28 @@
+.order-num {
+    color: white;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    line-height: 25px;
+    text-align: center;
+    font-size: 10px;
+    -webkit-border-radius: 25px;
+    position: relative;
+    left: 50%;
+    top: 15px;
+}
+
+/*用户购物车数量*/
+.shop-card-count {
+    color: white;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    line-height: 25px;
+    text-align: center;
+    font-size: 10px;
+    -webkit-border-radius: 25px;
+    position: absolute;
+    right: 8%;
+    margin-top: 11px;
+}

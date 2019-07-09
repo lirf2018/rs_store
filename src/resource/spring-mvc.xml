@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.2.xsd
+    http://www.springframework.org/schema/mvc
+    http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd">
+
+    <!-- 注解扫描包 -->
+    <context:component-scan base-package="com.yufan"/>
+    <!-- 开启注解 -->
+    <mvc:annotation-driven/>
+
+    <!--& 静态资源(js/image)的访问 -->
+    <mvc:resources location="/js/" mapping="/js/**"/>
+    <mvc:resources location="/css/" mapping="/css/**"/>
+    <mvc:resources location="/img/" mapping="/img/**"/>
+    <mvc:resources location="/iconfont/" mapping="/iconfont/**"/>
+    <mvc:resources location="/slick/" mapping="/slick/**"/>
+    <mvc:resources location="/fonts/" mapping="/fonts/**"/>
+    <!--<mvc:mapping path="/**"/>-->
+    <mvc:interceptors>
+        <!--对所有请求都拦截，公共拦截器可以有多个-->
+        <bean name="baseInterceptor" class="com.yufan.common.BaseInterceptor"/>
+        <mvc:interceptor>
+            <mvc:mapping path="/address/**"/>
+            <mvc:mapping path="/ajax/**"/>
+            <mvc:mapping path="/category/**"/>
+            <mvc:mapping path="/setting/**"/>
+            <mvc:mapping path="/goods/**"/>
+            <mvc:mapping path="/user/**"/>
+            <mvc:mapping path="/index/**"/>
+            <mvc:mapping path="/order/**"/>
+            <mvc:mapping path="/car/**"/>
+            <mvc:mapping path="/center/**"/>
+            <!--<mvc:exclude-mapping path="/v/**"/>-->
+            <!--特定请求的拦截器只能有一个-->
+            <bean class="com.yufan.common.LoginInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
+    <!-- 定义视图解析器 -->
+    <!-- ViewResolver -->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/jsp/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+
+</beans>

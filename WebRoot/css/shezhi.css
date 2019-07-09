@@ -1,0 +1,18 @@
+.box-s {
+    font-size: .13rem;
+}
+
+.box-s > .em-rigth {
+    color: grey;
+    float: right;
+    text-align: right;
+}
+
+.ui-input-text-code {
+    width: 85px;
+}
+
+.get-phone-code.get-img-code {
+    margin-left: 10px;
+}
+

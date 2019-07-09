@@ -1,0 +1,71 @@
+.chooseBtn {
+    /*display: none;*/
+    width: 10px;
+    height: 10px;
+}
+
+.button-label {
+    position: relative;
+    display: inline-block;
+    /*width: 70px;*/
+    /*height: 30px;*/
+    width: 50px;
+    height: 25px;
+    background-color: #ccc;
+    box-shadow: #ccc 0px 0px 0px 2px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    /*width: 30px;*/
+    /*height: 30px;*/
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.button-label .text {
+    /*line-height: 30px;*/
+    line-height: 25px;
+    text-shadow: 0 0 2px #ddd;
+    font-size: 8px;
+}
+
+.on {
+    color: #fff;
+    display: none;
+    text-indent: 5px;
+}
+
+.off {
+    color: #fff;
+    display: inline-block;
+    text-indent: 25px;
+}
+
+.button-label .circle {
+    left: 0;
+    transition: all 0.3s;
+}
+
+.chooseBtn:checked + label.button-label .circle {
+    /*left: 40px;*/
+    left: 25px;
+}
+
+.chooseBtn:checked + label.button-label .on {
+    display: inline-block;
+}
+
+.chooseBtn:checked + label.button-label .off {
+    display: none;
+}
+
+.chooseBtn:checked + label.button-label {
+    background-color: #06c1ae;
+}

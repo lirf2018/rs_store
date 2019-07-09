@@ -1,0 +1,78 @@
+@charset "utf-8";
+/*全局样式*/
+.all-style {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*返回到主页样式*/
+.returnback {
+    margin-top: 13px;
+}
+
+.cancel > a {
+    color: #06c1ae;
+    font-size: 18px;
+}
+
+/*登录账号*/
+.div-login {
+    padding-top: 20px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: #404040;
+}
+
+/*登录信息*/
+.div-login-name {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #F0F0F0;
+    padding: 5px 0px;
+}
+
+.div-login-name > input {
+    width: 100%;
+    height: 35px;
+    border: none;
+    color: #797979;
+    font-size: 16px;
+    padding: 5px 2px;
+    border-radius: 5px;
+}
+
+/*登录按钮*/
+.div-login-btn {
+    text-align: center;
+    background-color: #06c1ae;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.div-login-btn > span {
+    display: block;
+    font-size: 18px;
+    padding: 8px 5px;
+    color: white;
+}
+
+/*最后一栏样式*/
+.bottom-style {
+    margin-top: 15px;
+}
+
+.bottom-style > span:first-child > a {
+    /*color: #797979;*/
+    color: red;
+    float: left;
+    font-size: 15px;
+}
+
+.bottom-style > span:nth-last-child(1) > a {
+    color: #06c1ae;
+    float: right;
+    font-size: 15px;
+}
